@@ -1,10 +1,12 @@
 <template>
-  <transition name="slide-fade">  
+  <transition name="slide-fade">
     <div v-if="selectedArticle" class="article">
+
+      <img :src="selectedArticle.enclosure.url">
       <h2 ref="articleTitle" class="article__title">{{ selectedArticle.title }}</h2>
-      
+
       <div v-html="selectedArticle.content" />
-      
+
       <a :href="articleLink" target="_blank" rel="noopener">View original. <i class="fas fa-external-link-alt" /></a>
     </div>
   </transition>

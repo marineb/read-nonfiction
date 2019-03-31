@@ -1,6 +1,6 @@
 <template>
   <div class="feed-list-container">
-    <h2>Feeds</h2>
+    <h2>Sources</h2>
     <ul v-if="feeds && feeds.length" class="feeds">
       <li v-for="feed in feeds" :key="feed.title">
         <a href="#" @click.prevent="selectFeed(feed.title)" :class="isActive(feed.title)">

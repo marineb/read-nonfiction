@@ -6,6 +6,10 @@
       <ArticleList />
       <singleArticle />
     </div>
+    <br/>
+    <!-- <a href="https://github.com/tjFogarty/feeds-app-fe" target="_blank" rel="noopener" class="title-bar__source-link">
+      Merci à <i aria-hidden="true" class="fas fa-code" />
+    </a> -->
   </div>
 </template>
 

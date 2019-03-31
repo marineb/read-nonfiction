@@ -1,7 +1,7 @@
 import * as types from "./mutation-types";
 import axios from "axios";
 
-const endpoint = "https://feeds-app.herokuapp.com";
+const endpoint = "https://nonfiction-feed.herokuapp.com/";
 
 export default {
   async getFeeds({ commit }) {

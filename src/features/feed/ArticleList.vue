@@ -1,7 +1,7 @@
 <template>
   <transition name="slide-fade">
     <div v-if="selectedFeed && selectedFeed.items.length" class="article-list-container">
-      <h2>Articles</h2>    
+      <h2>Critiques</h2>    
       <ul class="article-list">
         <li v-for="item in selectedFeed.items" :key="item.title">
           <a href="#" @click.prevent="selectArticle(item)" :class="isActive(item.title)">
