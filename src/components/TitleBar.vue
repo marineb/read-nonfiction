@@ -1,15 +1,15 @@
 <template>
   <div class="title-bar">
-    <div>  
+    <div>
       <h1 class="title-bar__heading">
         <i class="title-bar__icon fas fa-rss" aria-hidden="true" />
-        Feed Reader
+        Lire les non-fictions
       </h1>
-      
+
       <ThemeSelect />
     </div>
-    
-    
+
+
     <a href="https://github.com/tjFogarty/feeds-app-fe" target="_blank" rel="noopener" class="title-bar__source-link">
       <i aria-hidden="true" class="fas fa-code" />
     </a>
